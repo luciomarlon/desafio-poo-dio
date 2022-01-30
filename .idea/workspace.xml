@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b919371-7c29-4bc5-9ae2-06eb723e490b" name="Changes" comment="add README.md">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/br/com/dio/desafio/dominio/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/br/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
+    <list default="true" id="8b919371-7c29-4bc5-9ae2-06eb723e490b" name="Changes" comment="Criando Mentoria e curso">
+      <change afterPath="$PROJECT_DIR$/src/com/br/com/dio/desafio/dominio/Conteudo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio-dio-poo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desafio-dio-poo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/br/com/dio/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/br/com/dio/desafio/dominio/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/br/com/dio/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/br/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643547152381</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criando Mentoria e curso">
+      <created>1643550220764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643550220764</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Criando Mentoria e curso">
+      <created>1643550230531</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643550230531</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add README.md" />
+    <MESSAGE value="Criando Mentoria e curso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando Mentoria e curso" />
   </component>
 </project>
