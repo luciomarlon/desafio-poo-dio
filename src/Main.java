@@ -1,6 +1,4 @@
-import com.br.com.dio.desafio.dominio.Conteudo;
-import com.br.com.dio.desafio.dominio.Curso;
-import com.br.com.dio.desafio.dominio.Mentoria;
+import com.br.com.dio.desafio.dominio.*;
 
 import java.time.LocalDate;
 
@@ -22,8 +20,56 @@ public class Main {
         mentoria.setDescricao("Descrição mentoria JAVA");
         mentoria.setData(LocalDate.now());
 
-        System.out.println(curso);
+       /* System.out.println(curso);
         System.out.println(curso1);
         System.out.println(mentoria);
+        */
+
+        BootCamp bootCamp = new BootCamp();
+        bootCamp.setNome("BootCamp Java Developer");
+        bootCamp.setDescricao("Descrição BootCamp JavaDeveloper");
+        bootCamp.getConteudos().add(curso);
+        bootCamp.getConteudos().add(curso1);
+        bootCamp.getConteudos().add(mentoria);
+
+
+        Dev desenvolvedor = new Dev();
+        desenvolvedor.setNome("LUCIO MARLON");
+        desenvolvedor.increverBootCamp(bootCamp);
+
+        System.out.println("Conteúdos dos incritos LUCIO MARLON" +
+                desenvolvedor.getConteudoInscritos());
+
+        desenvolvedor.progredir();
+        desenvolvedor.progredir();
+        System.out.println("-");
+
+        System.out.println("Conteúdos dos incritos LUCIO MARLON" +
+                desenvolvedor.getConteudoInscritos());
+
+        System.out.println("Conteúdos concluídos LUCIO MARLON" +
+                desenvolvedor.getConteudosConcluidos());
+        System.out.println("Chamando calcular XP: " + desenvolvedor.calcularTotalXP());
+
+        System.out.println("-----------------------------------");
+
+        Dev desenvolvedor2 = new Dev();
+        desenvolvedor2.setNome("LUCIO SOUSA");
+        desenvolvedor2.increverBootCamp(bootCamp);
+
+        System.out.println("Conteúdos dos incritos LUCIO SOUSA" +
+                desenvolvedor2.getConteudoInscritos());
+
+        desenvolvedor2.progredir();
+        desenvolvedor2.progredir();
+        desenvolvedor2.progredir();
+        System.out.println("-");
+
+        System.out.println("Conteúdos dos incritos LUCIO SOUSA" +
+                desenvolvedor2.getConteudoInscritos());
+        System.out.println("Conteúdos concluídos LUCIO SOUSA" +
+                desenvolvedor2.getConteudosConcluidos());
+        System.out.println("Chamando calcular XP: " + desenvolvedor2.calcularTotalXP());
+
     }
 }
